@@ -88,3 +88,10 @@ local handlePos = handle.Position
 runService.Heartbeat:Connect(function(delta)
     handle.Position = handlePos
 end)
+
+local accessoryClone = accessory:Clone() -- allows you to see astolfo in first person :)
+accessoryClone.Name = 'astolfo'
+accessoryClone.Parent = workspace
+runService.Heartbeat:Connect(function(delta)
+    accessoryClone.Handle.Position = handlePos
+end)
