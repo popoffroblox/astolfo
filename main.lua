@@ -95,3 +95,8 @@ accessoryClone.Parent = workspace
 runService.Heartbeat:Connect(function(delta)
     accessoryClone.Handle.Position = handlePos
 end)
+
+repeat
+    task.wait()
+until (accessory == nil) 
+accessoryClone:Destroy()
