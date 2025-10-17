@@ -58,8 +58,6 @@ sendMessage('-gh ' .. accessoryId)
 task.wait(2)
 sendMessage('-net')
 task.wait(2)
-sendMessage('-net')
-task.wait(2)
 sendMessage('-pd')
 task.wait(4)
 
