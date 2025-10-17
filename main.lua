@@ -44,6 +44,10 @@ if accessoryId == '' then selfdestruct() end
 sendMessage('-rs')
 task.wait(2)
 
+sendMessage('-ch")
+
+task.wait(2)
+
 if lplr.Character:FindFirstChildWhichIsA('Accessory') then
     sendMessage('-ch')
     task.wait(2)
