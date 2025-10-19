@@ -44,7 +44,7 @@ if accessoryId == '' then selfdestruct() end
 sendMessage('-rs')
 task.wait(2)
 
-sendMessage('-ch")
+sendMessage('-ch')
 
 task.wait(2)
 
